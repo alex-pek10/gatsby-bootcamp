@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Footer from "../components/footer"
+
 const HomePage = () => {
   return (
     <>
@@ -22,11 +24,14 @@ const HomePage = () => {
         </ul>
       </nav>
 
-    {/* MAIN CONTENT */}
+      {/* MAIN CONTENT */}
       <main>
         <h1>Hello!</h1>
         <p>I'm Alex, a full-stack developer living in Columbus, Ohio.</p>
       </main>
+
+      {/* FOOTER */}
+      <Footer />
     </>
   )
 }
