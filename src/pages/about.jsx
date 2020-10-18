@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 
 import Footer from "../components/footer"
 
-
 const AboutPage = () => {
   return (
     <>

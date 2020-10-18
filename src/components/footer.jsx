@@ -1,7 +1,11 @@
 import React from "react"
 
 const Footer = () => {
-  return <footer>Copyright &copy; 2020 - Alex Myers</footer>
+  const getCurrentYear = () => {
+    return new Date().getFullYear()
+  }
+
+  return <footer>Copyright &copy; {getCurrentYear()} - Alex Myers</footer>
 }
 
 export default Footer
