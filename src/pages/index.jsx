@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <PageLayout>
       <main>
-        <h1>Hello!</h1>
+        <h1 className="title">Hello!</h1>
         <p>I'm Alex, a full-stack developer living in Columbus, Ohio.</p>
       </main>
     </PageLayout>
